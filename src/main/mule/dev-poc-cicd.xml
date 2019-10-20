@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="dev-poc-cicdFlow" doc:id="41a6362f-b6f9-42ee-ac85-42d926ce3b1c" >
+		<scheduler doc:name="Scheduler" doc:id="b8149661-fab9-40f5-92c7-9770a1f00823" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="2" timeUnit="MINUTES"/>
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="9184559d-343f-40d8-a21a-6eb7f3d97938" message="Flow Started"/>
+		<logger level="INFO" doc:name="Logger" doc:id="31ce8cb0-9351-4fcf-8465-4505a7ced779" message="Polled complete"/>
+	</flow>
+</mule>
