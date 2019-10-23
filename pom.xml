@@ -36,8 +36,8 @@
 				   <cloudHubDeployment>
       <uri>https://anypoint.mulesoft.com</uri>
       <muleVersion>${app.runtime}</muleVersion>
-      <username>pavan4030</username>
-      <password>gayiChittu@123</password>
+      <username>${username}</username>
+      <password>${password}</password>
       <applicationName>dev-pipeline-poc</applicationName>
 	   <workers>1</workers>
       <environment>Development</environment>
