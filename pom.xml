@@ -34,14 +34,14 @@
 				<configuration>
       <cloudHubDeployment>
    <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>${app.runtime}</muleVersion>
-            <username>${cloudhub.userName}</username>
-            <password>${cloudhub.password}</password>
+            <muleVersion>4.2.2</muleVersion>
+            <username>pavan4030</username>
+            <password>gayiChittu@123</password>
            
-            <applicationName>${cloudhub.appName}</applicationName>
+            <applicationName>pavan-test</applicationName>
            	<workerType>Micro</workerType>
 		  <workers>1</workers>
-            <environment>${cloudhub.environment}</environment>
+            <environment>Test</environment>
 <properties>
 					
 					
@@ -125,7 +125,7 @@
     <repository>
       <id>Repository</id>
       <name>Corporate Repository</name>
-      <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/14d14f6a-3b43-4a10-ab16-e6c3faf668f1/maven</url>
+      <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/24c6ee64-d510-40ca-a29f-36761c1360f6/maven</url>
       <layout>default</layout>
     </repository>
   </distributionManagement>
