@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
@@ -14,8 +13,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.2.1</app.runtime>
-		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
+		<app.runtime>4.2.2</app.runtime>
+		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -33,15 +32,23 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				   <cloudHubDeployment>
-      <uri>https://anypoint.mulesoft.com</uri>
-      <muleVersion>${app.runtime}</muleVersion>
-      <username>${username}</username>
-      <password>${password}</password>
-      <applicationName>dev-pipeline-poc</applicationName>
-	   <workers>1</workers>
-      <environment>Development</environment>
-         </cloudHubDeployment>
+      <cloudHubDeployment>
+   <uri>https://anypoint.mulesoft.com</uri>
+            <muleVersion>${app.runtime}</muleVersion>
+            <username>${cloudhub.userName}</username>
+            <password>${cloudhub.password}</password>
+           
+            <applicationName>${cloudhub.appName}</applicationName>
+           	<workerType>Micro</workerType>
+		  <workers>1</workers>
+            <environment>${cloudhub.environment}</environment>
+<properties>
+					
+					
+						
+				
+			</properties>
+          </cloudHubDeployment>
 		     <executions>
 			           <execution>
 			             <id>deploy</id>
@@ -51,7 +58,8 @@
 			             </goals>
 			           </execution>
 			         </executions>
-				</configuration>
+				<classifier>mule-application</classifier>
+                </configuration>
 			</plugin>
 			            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
