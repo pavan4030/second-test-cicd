@@ -1,0 +1,394 @@
+{
+  "SalesOrders": [
+    {
+      "Cast_id": "",
+      "alternateOrderNumber": "",
+      "documentDate": "",
+      "order_id": "",
+      "orderStatus": "",
+      "orderCategory": "",
+      "orderType": "",
+      "requestedShipDateTime": "",
+      "promisedShipDateTime": "",
+      "promisedDeliveryDateTime": "2/23/2021",
+      "paymentTerms": "",
+      "salesOrganization": "",
+      "sellerOne": null,
+      "sellerTwo": null,
+      "sellerThree": null,
+      "freightAmount": "",
+      "customer": [
+        {
+          "customerPartyId": "",
+          "customerPartyAltId": null,
+          "billing": [
+            
+          ],
+          "shipping": [
+            {
+              "customerID": "C1000266",
+              "customerAltID": "",
+              "customername": "",
+              "shippingAddressLineOne": "",
+              "shippingAddressLineTwo": "",
+              "shippingAddressLineThree": "",
+              "shippingAddressLineFour": "",
+              "shippingCity": "",
+              "shippingState": "",
+              "shippingCountry": "USA",
+              "shippingPostalCode": "",
+              "shippingPhone": "",
+              "shippingMobilePhone": "",
+              "shippingEmail": ""
+            }
+          ]
+        }
+      ],
+      "shipFrom": [
+        {
+          "shipFromID": "",
+          "shipFromAltId": "",
+          "shipFromName": "",
+          "shippingAddressLineOne": "",
+          "shippingAddressLineTwo": "",
+          "shippingAddressLineThree": "",
+          "shippingAddressLineFour": "",
+          "shippingCity": "",
+          "shippingState": "",
+          "shippingCountry": "",
+          "shippingPostalCode": "",
+          "shippingPhone": "",
+          "shippingMobilePhone": "",
+          "shippingEmail": ""
+        }
+      ],
+      "headerAttributes": [
+        
+      ],
+      "items": [
+        {
+          "shippinglineNumber": "P592917450",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P600616424",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P601416469",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P610435538",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P610416347",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P610416334",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P611318928",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P589717770",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "4",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P021936455",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P021936454",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P616531287",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P619016493",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P642836612",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        },
+        {
+          "shippinglineNumber": "P600016487",
+          "orderLineNumber": "",
+          "lineStatus": "",
+          "lineCategory": "",
+          "loadingLocation": "",
+          "item_id": "",
+          "itemDescription": "",
+          "itemQuantity": "1",
+          "itemUOM": "",
+          "itemPrice": "",
+          "overridePrice": "",
+          "extendedPrice": "",
+          "qualityCode": "",
+          "retailPrice": "",
+          "itemWeight": "",
+          "itemWeightUOM": "",
+          "itemVolume": "",
+          "lot": "",
+          "lineAttributes": [
+            
+          ]
+        }
+      ]
+    }
+  ]
+}

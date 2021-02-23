@@ -1,0 +1,13 @@
+{
+  "sampleData": {
+    "4a8d80cc-cbf5-4ad9-9a35-9db6f032cf67": {},
+    "fbd8d05e-c6f9-4208-8d90-dc465c0c9527": {
+      "vars-ordersList": "sample_data/list_json.json",
+      "vars-ordersJson": "sample_data/list_json_2.json",
+      "vars-ordersjson": "sample_data/list_json_1.json"
+    },
+    "98ce6f6c-b3b6-4c00-b98c-a47647138644": {
+      "payload": "sample_data/json.json"
+    }
+  }
+}
