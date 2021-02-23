@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<file:config name="File_Config" doc:name="File Config" doc:id="513ab882-9139-4cda-b545-a5ef22dcf975" />
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="11540e0d-634f-4bfe-b651-c6e3ee8a52ec" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<configuration-properties doc:name="Configuration properties" doc:id="121844b2-5bca-47ab-825e-6b876a239ccc" file="dev.properties" />
+	<configuration-properties doc:name="Configuration properties" doc:id="ef495b04-b43d-4080-8b47-d46a729f41ee" file="application.properties" />
+	<global-property doc:name="Global Property" doc:id="548bc02d-7f2f-46d2-a6ca-1be2f23408d5" name="env" value="dev" />
+	<flow name="second-cicdFlow" doc:id="41a6362f-b6f9-42ee-ac85-42d926ce3b1c" initialState="started">
+		<http:listener doc:name="Listener" doc:id="bc94ae39-48df-432e-8905-411f55e692be" config-ref="HTTP_Listener_config" path="/secondtest/"/>
+		<logger level="INFO" doc:name="Logger" doc:id="9184559d-343f-40d8-a21a-6eb7f3d97938" message='#["Flow Started at:" ++ now() as String]'/>
+		<ee:transform doc:name="Sample Payload" doc:id="11fb4ab4-28ff-4581-a034-2888e68a8540" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	
+	sample: "foo" 
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="Payload Size" doc:id="31ce8cb0-9351-4fcf-8465-4505a7ced779" message="#[payload]"/>
+	</flow>
+</mule>
