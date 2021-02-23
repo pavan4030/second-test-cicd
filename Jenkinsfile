@@ -5,7 +5,7 @@ stages {
  stage('pull artifact') {
             steps {
                 copyArtifacts filter: '**/', fingerprintArtifacts: true, 
-			projectName: 'cicd-pipeline-Mule_POC', 
+			projectName: '${JOB_NAME}', 
 				selector: specific('${BUILD_NUMBER}'),
 			     target: 'prereq'
             }
