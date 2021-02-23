@@ -7,7 +7,7 @@ stages {
                 copyArtifacts filter: '**/', fingerprintArtifacts: true, 
 				projectName: '${JOB_NAME}', 
 				selector: specific('${BUILD_NUMBER}')
-                dir: './archive_new'
+                dir: '${workspace}'
                 sh 'cat archive_new/test.txt'
             }
         }
