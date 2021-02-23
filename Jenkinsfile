@@ -6,9 +6,8 @@ stages {
             steps {
                 copyArtifacts filter: '**/', fingerprintArtifacts: true, 
 				projectName: '${JOB_NAME}', 
-				selector: specific('${BUILD_NUMBER}')
-                dir: ''
-                sh 'cat archive_new/test.txt'
+				selector: specific('${BUILD_NUMBER}'),
+			     target: 'prereq'
             }
         }
 		
